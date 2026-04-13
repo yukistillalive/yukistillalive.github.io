@@ -94,6 +94,13 @@ export const model = {
 
   // News
   news: [
+    {
+      id: 6,
+      date: "Apr 2026",
+      text: "We are currently seeking creative practitioners for our online study ✨! You are very welcome to participate",
+      link: "https://bucolic-churros-8cbc0b.netlify.app/",
+      linkLabel: "here",
+    },
     { id: 5, date: "Apr 2026", text: "One paper accepted at ACM IMX'26! Will be presenting it in Althone, Ireland." },
     { id: 4, date: "Mar 2026", text: "Got one special recognition for outstanding reviews on CHI'26 posters." },
     { id: 3, date: "Aug 2025", text: "Started my master's study at KTH Royal Institute of Technology." },

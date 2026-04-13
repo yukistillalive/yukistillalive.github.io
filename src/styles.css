@@ -255,6 +255,11 @@ a { color: inherit; text-decoration: none; }
 }
 .news-row-date { color: var(--muted); flex-shrink: 0; }
 .news-row-text { color: var(--text); }
+.news-inline-link {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.news-inline-link:hover { color: var(--accent); }
 
 /* MORE LINK — plain underlined text, no button chrome          */
 .more-link {
