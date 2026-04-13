@@ -4,7 +4,7 @@ export const model = {
   role: "Master Student · Interactive Media Technology",
   affiliation: "KTH Royal Institute of Technology",
   email: "yukizhuyue@outlook.com",
-  photo: "/media/profile/profile.jpeg",
+  photo: "/media/profile/profile.png",
   bio: [
     "Hej, I am Yue! I am a first-year master student studying Interactive Media Technology (MSc) at KTH Royal Institute of Technology.",
     "My current interest lies in the intersection of Critical Computing and Creativity Support, with a broader interest in Human-Computer Interaction and Data Feminism. I design and develop for interactive experiences, conduct empirical studies with mix-methods, examine the tensions in between human and socio-technical systems/artefacts with critique, and speculate for alternatives.",
@@ -27,7 +27,7 @@ export const model = {
       id: 1,
       title: "Unveiling Hype Patterns in AI Advertising",
       authors: "Yue Zhu, Yuan Yao, and Maria Luce Lupetti",
-      venue: "ACM IMX'26 (Technical Paper, To Appear)",
+      venue: "Full paper conditionally accepted by ACM IMX'26",
       year: 2026,
       link: "#",
       tags: ["Critical Computing", "Media Study"],
@@ -95,10 +95,10 @@ export const model = {
   // News
   news: [
     { id: 5, date: "Apr 2026", text: "One paper accepted at ACM IMX'26! Will be presenting it in Althone, Ireland." },
-    { id: 4, date: "Mar 2025", text: "Got one special recognition for outstanding reviews for reviewing CHI'26 posters." },
+    { id: 4, date: "Mar 2025", text: "Got one special recognition for outstanding reviews on CHI'26 posters." },
     { id: 3, date: "Aug 2025", text: "Started my master's study at KTH Royal Institute of Technology." },
     { id: 2, date: "Jun 2025", text: "Received the Lin Fengmian Gold Award for Thesis Project at China Academy of Art." },
-    { id: 1, date: "Oct 2024", text: "Presented TangibleNegotiation at Ubicomp'24, Melbourne." },
+    { id: 1, date: "Oct 2024", text: "Poster presentation of TangibleNegotiation at Ubicomp'24, Melbourne." },
     // { id: 6, date: "Mar 2023", text: "Paper accepted at CSCW 2023." },
   ],
 };
