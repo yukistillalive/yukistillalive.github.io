@@ -95,7 +95,7 @@ export const model = {
   // News
   news: [
     { id: 5, date: "Apr 2026", text: "One paper accepted at ACM IMX'26! Will be presenting it in Althone, Ireland." },
-    { id: 4, date: "Mar 2025", text: "Got one special recognition for outstanding reviews on CHI'26 posters." },
+    { id: 4, date: "Mar 2026", text: "Got one special recognition for outstanding reviews on CHI'26 posters." },
     { id: 3, date: "Aug 2025", text: "Started my master's study at KTH Royal Institute of Technology." },
     { id: 2, date: "Jun 2025", text: "Received the Lin Fengmian Gold Award for Thesis Project at China Academy of Art." },
     { id: 1, date: "Oct 2024", text: "Poster presentation of TangibleNegotiation at Ubicomp'24, Melbourne." },
