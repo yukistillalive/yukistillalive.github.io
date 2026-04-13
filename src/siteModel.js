@@ -27,9 +27,9 @@ export const model = {
       id: 1,
       title: "Unveiling Hype Patterns in AI Advertising",
       authors: "Yue Zhu, Yuan Yao, and Maria Luce Lupetti",
-      venue: "ACM IMX'26 (Technical Paper)",
+      venue: "ACM IMX'26 (Technical Paper, To Appear)",
       year: 2026,
-      link: "https://imx.acm.org/2026/accepted-contributions/",
+      link: "#",
       tags: ["Critical Computing", "Media Study"],
     },
     {
@@ -94,10 +94,11 @@ export const model = {
 
   // News
   news: [
-    { id: 1, date: "Apr 2026", text: "One paper accepted at ACM IMX'26! Will be presenting it in Althone, Ireland." },
-    { id: 2, date: "Aug 2025", text: "Started my master's study at KTH Royal Institute of Technology." },
-    { id: 3, date: "Jun 2025", text: "Received the Lin Fengmian Gold Award for Thesis Project at China Academy of Art." },
-    { id: 4, date: "Oct 2024", text: "Presented TangibleNegotiation at Ubicomp'24, Melbourne." },
+    { id: 5, date: "Apr 2026", text: "One paper accepted at ACM IMX'26! Will be presenting it in Althone, Ireland." },
+    { id: 4, date: "Mar 2025", text: "Got one special recognition for outstanding reviews for reviewing CHI'26 posters." },
+    { id: 3, date: "Aug 2025", text: "Started my master's study at KTH Royal Institute of Technology." },
+    { id: 2, date: "Jun 2025", text: "Received the Lin Fengmian Gold Award for Thesis Project at China Academy of Art." },
+    { id: 1, date: "Oct 2024", text: "Presented TangibleNegotiation at Ubicomp'24, Melbourne." },
     // { id: 6, date: "Mar 2023", text: "Paper accepted at CSCW 2023." },
   ],
 };
