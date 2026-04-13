@@ -214,7 +214,14 @@ a { color: inherit; text-decoration: none; }
   background: var(--surface);
   overflow: hidden;
 }
-.about-photo img { width: 100%; height: auto; display: block; }
+.about-photo img {
+  width: 100%;
+  height: auto;
+  display: block;
+  filter: grayscale(50%);
+  transition: filter 0.3s ease;
+}
+.about-photo:hover img { filter: grayscale(0%); }
 .about-photo:not(:has(img)) {
   aspect-ratio: 3 / 4;
   display: flex;
@@ -222,9 +229,9 @@ a { color: inherit; text-decoration: none; }
   justify-content: center;
 }
 .about-photo-placeholder {
-  font-size: 0.65rem;
+  font-size: 0.68rem;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.1em;
   color: var(--subtle);
 }
 
