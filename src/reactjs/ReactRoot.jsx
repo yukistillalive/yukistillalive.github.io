@@ -1,34 +1,24 @@
 import { observer } from "mobx-react-lite";
-import { createHashRouter, RouterProvider } from "react-router-dom";
-import { Details } from "./detailsPresenter.jsx";
-import { Dash } from "./dashPresenter.jsx";
-import { History } from "./historyPresenter.jsx";
-// import { Library } from "./libraryPresenter.jsx";
-// import { Results } from "./resultsPresenter.jsx";
-// import { Tutorial } from "./tutorialPresenter.jsx";
+import { Sidebar } from "./sidebarPresenter.jsx";
+import { Home } from "./homePresenter.jsx";
+import { Publications } from "./publicationsPresenter.jsx";
+import { Projects } from "./projectsPresenter.jsx";
+import { News } from "./newsPresenter.jsx";
 
-const ReactRoot = observer(function ReactRoot(props) {
+const ReactRoot = observer(function ReactRoot({ model }) {
   return (
-    <div>
-        <Details model={props.model} />
-        <Dash model={props.model} />
-        <History model={props.model} />
-        {/* <Library model={props.model} /> */}
-        {/* <Results model={props.model} /> */}
-        {/* <Tutorial model={props.model} /> */}
+    <div className="site-layout">
+      <Sidebar model={model} />
+      <div className="main-scroll">
+        <section id="about"        className="site-section"><Home         model={model} /></section>
+        <div className="parallel-sections">
+          <section id="publications" className="site-section"><Publications model={model} /></section>
+          <section id="news"         className="site-section"><News         model={model} /></section>
+        </div>
+        <section id="projects"     className="site-section"><Projects     model={model} /></section>      
+      </div>
     </div>
   );
 });
 
-// // Root Distributes Model to Children
-// export default function ReactRoot(props){
-//     return (<div>
-//                 <div>
-//                     <Details model={props.model} />
-//                 </div>
-//             </div>
-//            );
-// }
-// // )
-
-export { ReactRoot }
+export { ReactRoot };

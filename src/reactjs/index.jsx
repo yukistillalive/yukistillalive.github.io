@@ -1,12 +1,11 @@
-import {createElement, Fragment} from "react"; // 2.install the JSX element creator
-window.React= {createElement:createElement, Fragment:Fragment}; // needed in the lab because it works with both React and Vue
+import {createElement, Fragment} from "react";
+window.React= {createElement:createElement, Fragment:Fragment};
 
-// TODO make a reactive model (application state), pass it as prop to the components used
 import { createRoot } from "react-dom/client";
-import { ReactRoot } from "./ReactRoot.jsx"; // 3.import the root component, arranges the app visually
-import { reactiveModel } from "../mobxReactiveModel.js"; // 1.get the reactive model
+import { ReactRoot } from "./ReactRoot.jsx";
+import { reactiveModel } from "../mobxReactiveModel.js";
+import "../styles.css";
 
-// 4.mount the app in the browser page. Test at http://localhost:8080/react.html
 createRoot(document.getElementById('root')).render(<ReactRoot model={reactiveModel} />);
 
 // const mountedApp= createRoot(document.getElementById('root'))

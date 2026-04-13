@@ -1,0 +1,392 @@
+/* ════════════════════════════════════════════════════════════
+   THEME VARIABLES
+   Edit only this block to restyle the entire site.
+
+   Colors ────────────────────────────────────────────────────
+   --bg          page / sidebar background
+   --text        primary readable text
+   --accent      hover & active highlight (nav links, more-link)
+   --muted       secondary text: dates, year labels
+   --faint       quietest text: section labels, inactive nav
+   --subtle      descriptions, author lines
+   --dim         venue / italic lines (lightest readable text)
+   --surface     photo placeholder background
+   --surface-2   project thumbnail placeholder background
+   --tag-bg      tag pill fill
+   --tag-text    tag pill text
+   --border      underline borders on links
+   --strong      publication titles, project names
+
+   Typography ────────────────────────────────────────────────
+   --font        font stack — swap entire family here
+   --size-base   root px size — all rem values scale from this
+
+   Layout ────────────────────────────────────────────────────
+   --sidebar     fixed sidebar column width
+   --photo       about-section photo column (responsive clamp)
+   --col-date    news date column width
+   --col-year    publication year column width
+   ════════════════════════════════════════════════════════════ */
+:root {
+  /* colors */
+  --bg:        #ddd8cd;
+  --text:      #232323;
+  --accent:    #fff152;
+  --muted:     #696969;
+  --faint:     #232323;
+  --subtle:    #888;
+  --dim:       #aaa;
+  --surface:   #ddd;
+  --surface-2: #e8e8e8;
+  --tag-bg:    #f3f3f3;
+  --tag-text:  #666;
+  --border:    #ccc;
+  --strong:    #111;
+
+  /* typography */
+  --font:      "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --size-base: 11px;
+
+  /* layout */
+  --sidebar:   250px;
+  --photo:     clamp(150px, 20vw, 280px);
+  --col-date:  80px;
+  --col-year:  46px;
+}
+
+/* ── Reset ───────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font);
+  font-size: var(--size-base);
+  line-height: 1.65;
+  background: var(--bg);
+  color: var(--text);
+}
+
+a { color: inherit; text-decoration: none; }
+
+/* ── Site Grid ───────────────────────────────────────────── */
+/* SIDEBAR WIDTH — change --sidebar in :root above              */
+.site-layout {
+  display: grid;
+  grid-template-columns: var(--sidebar) 1fr;
+  min-height: 100vh;
+}
+
+/* ── Sidebar ─────────────────────────────────────────────── */
+/* SIDEBAR PADDING
+   padding: top  right  bottom  left
+   Increase left to push content away from the browser edge.    */
+.sidebar {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  padding: 2.8rem 0 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;   /* vertical space between brand name and nav links */
+  flex-shrink: 0;
+}
+
+/* SIDEBAR NAME
+   font-size / font-weight control how prominent the name appears. */
+.sidebar-brand {
+  font-size: 0.95rem;
+  font-weight: 700;
+  line-height: 1.35;
+  color: var(--text);
+  display: block;
+}
+.sidebar-brand:hover {
+  /* text-decoration: underline; */
+  color: var(--accent);
+}
+
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;  /* space between nav links */
+}
+
+/* SIDEBAR NAV LINKS
+   inactive color → --faint,  active/hover → --accent            */
+.sidebar-nav a {
+  display: block;
+  font-size: 0.78rem;
+  color: var(--text);
+  padding: 0.1rem 0;
+  transition: color 0.12s;
+}
+.sidebar-nav a:hover  {
+  text-decoration: underline;
+  color: var(--accent);
+}
+.sidebar-nav a.active { 
+  text-decoration: underline;
+  color: var(--accent);
+}
+
+/* SIDEBAR CONTACT LINKS — pinned to the bottom of the sidebar */
+.sidebar-links {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+.sidebar-links a {
+  display: block;
+  font-size: 0.72rem;
+  color: var(--text);
+  padding: 0.1rem 0;
+  transition: color 0.12s;
+  word-break: break-all;
+}
+.sidebar-links a:hover {
+  text-decoration: underline;
+  color: var(--accent);
+ }
+
+/* ── Main Scroll Area ────────────────────────────────────── */
+/* MAIN CONTENT PADDING
+   padding: top  right  bottom  left
+   right (5vw)  : scales with viewport
+   left  (3rem) : gap between sidebar and content              */
+.main-scroll {
+  min-width: 0;        /* prevents grid item from overflowing */
+  padding: 2.8rem 5vw 6rem 3rem;
+}
+
+/* ── Section ─────────────────────────────────────────────── */
+/* SECTION SPACING
+   padding-top / padding-bottom : vertical space inside each section */
+.site-section {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+.site-section:first-child { padding-top: 0; }
+
+/* PARALLEL SECTIONS — renders two sections side by side
+   grid-template-columns : left column width  right column width
+   e.g. "1fr 1fr" = equal halves, "2fr 3fr" = narrower left      */
+.parallel-sections {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 0 3rem;
+  align-items: start;
+}
+.parallel-sections .site-section { padding-top: 2rem; }
+
+@media (max-width: 860px) {
+  .parallel-sections { grid-template-columns: 1fr; }
+}
+
+/* SECTION LABEL  (small uppercase "ABOUT", "NEWS" …)
+   letter-spacing : spread of capitals
+   margin-bottom  : gap below label before content              */
+.section-label {
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--faint);
+  margin-bottom: 1.5rem;
+}
+
+/* ── About ───────────────────────────────────────────────── */
+/* ABOUT PHOTO COLUMN — change --photo in :root above
+   gap : horizontal space between photo and bio text.           */
+.about-grid {
+  display: grid;
+  grid-template-columns: var(--photo) 1fr;
+  gap: 2.5rem;
+  align-items: start;
+}
+
+/* ABOUT PHOTO
+   No forced aspect-ratio — image renders at its natural proportions.
+   :not(:has(img)) gives the placeholder a portrait shape only when
+   no real photo is present.
+   background : --surface (placeholder fill)                    */
+.about-photo {
+  width: 100%;
+  background: var(--surface);
+  overflow: hidden;
+}
+.about-photo img { width: 100%; height: auto; display: block; }
+.about-photo:not(:has(img)) {
+  aspect-ratio: 3 / 4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-photo-placeholder {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--subtle);
+}
+
+.about-body p {
+  font-size: 0.88rem;
+  color: var(--text);
+  line-height: 1.75;
+  margin-bottom: 1rem;
+}
+.about-body p:last-child { margin-bottom: 0; }
+
+/* ── News ────────────────────────────────────────────────── */
+.news-list { display: flex; flex-direction: column; }
+
+/* NEWS ROW
+   --col-date : date column width — widen for longer date strings */
+.news-row {
+  display: grid;
+  grid-template-columns: var(--col-date) 1fr;
+  font-size: 0.85rem;
+}
+.news-row-date { color: var(--muted); flex-shrink: 0; }
+.news-row-text { color: var(--text); }
+
+/* MORE LINK — plain underlined text, no button chrome          */
+.more-link {
+  display: inline-block;
+  margin-top: 1.1rem;
+  font-size: 0.78rem;
+  color: var(--subtle);
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1px;
+  cursor: pointer;
+  background: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-family: inherit;
+}
+.more-link:hover { color: var(--accent); border-color: var(--accent); }
+
+/* ── Publications ────────────────────────────────────────── */
+.pub-list { display: flex; flex-direction: column; gap: 1.4rem; }
+
+/* PUBLICATION ROW
+   --col-year : year column width                               */
+.pub-row {
+  display: grid;
+  grid-template-columns: var(--col-year) 1fr;
+  gap: 1rem;
+  align-items: start;
+}
+
+.pub-year {
+  font-size: 0.75rem;
+  color: var(--muted);
+  padding-top: 0.15rem;
+}
+
+.pub-title-link {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--strong);
+  display: block;
+  margin-bottom: 0.2rem;
+  line-height: 1.45;
+}
+.pub-title-link:hover { 
+  text-decoration: underline;
+  color: var(--accent);
+}
+
+.pub-authors { font-size: 0.78rem; color: var(--subtle); }
+.pub-venue   { font-size: 0.78rem; color: var(--dim); font-style: italic; }
+
+.tag-row { display: flex; flex-wrap: wrap; gap: 0.35rem; margin-top: 0.4rem; }
+.tag {
+  font-size: 0.67rem;
+  background: var(--tag-bg);
+  color: var(--tag-text);
+  padding: 0.1rem 0.45rem;
+  letter-spacing: 0.02em;
+}
+
+/* ── Projects ────────────────────────────────────────────── */
+/* PROJECTS GRID COLUMNS
+   repeat(3, 1fr) = 3 equal columns — change 3 to 2 or 4       */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.project-item a { display: block; }
+
+/* GREY FILTER ON PROJECT THUMBNAILS
+   grayscale(100%) = fully desaturated by default
+   grayscale(0%)   = full color on hover
+   Adjust the default value for a partial grey effect, e.g.
+   grayscale(60%) keeps some color while still looking muted.    */
+.project-thumb {
+  filter: grayscale(80%);
+  transition: filter 0.3s ease;
+}
+.project-item a:hover .project-thumb { filter: grayscale(0%); }
+
+/* PROJECT THUMBNAIL
+   aspect-ratio : 1 = square — try 4/3 for landscape
+   background   : --surface-2 (placeholder fill)               */
+.project-thumb {
+  width: 100%;
+  aspect-ratio: 1;
+  background: var(--surface-2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition: opacity .15s;
+}
+.project-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.project-thumb-label {
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--subtle);
+}
+
+.project-name {
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-top: 0.45rem;
+  color: var(--strong);
+}
+.project-item a:hover .project-name {
+  text-decoration: underline;
+  color: var(--accent);
+}
+
+.project-desc {
+  font-size: 0.75rem;
+  color: var(--subtle);
+  margin-top: 0.2rem;
+  line-height: 1.55;
+}
+
+/* ── Contact ─────────────────────────────────────────────── */
+.contact-block { display: flex; flex-direction: column; gap: 0.4rem; }
+.contact-block p { font-size: 0.85rem; color: var(--muted); }
+.contact-block a { border-bottom: 1px solid var(--border); }
+.contact-block a:hover {
+  text-decoration: underline;
+  color: var(--accent);
+}
+
+/* ── Responsive ──────────────────────────────────────────── */
+/* Below 640px the sidebar collapses into a top bar and
+   two-column grids drop to single / two columns.               */
+@media (max-width: 640px) {
+  .site-layout  { grid-template-columns: 1fr; }
+  .sidebar      { position: static; width: 100%; height: auto; padding: 1.5rem; flex-direction: row; flex-wrap: wrap; align-items: center; border-bottom: 1px solid var(--border); }
+  .sidebar-nav  { flex-direction: row; gap: 1rem; }
+  .main-scroll  { padding: 1.5rem; }
+  .about-grid   { grid-template-columns: 1fr; max-width: 320px; }
+  .project-grid { grid-template-columns: repeat(2, 1fr); }
+}
