@@ -7,7 +7,7 @@ export const model = {
   photo: "/media/profile/profile.png",
   bio: [
     "Hej, I am Yue! I am a first-year master student studying Interactive Media Technology (MSc) at KTH Royal Institute of Technology.",
-    "My current interest lies in the intersection of Critical Computing and Creativity Support, with a broader interest in Human-Computer Interaction and Data Feminism. I design and develop for interactive experiences, conduct empirical studies with mix-methods, examine the tensions in between human and socio-technical systems/artefacts with critique, and speculate for alternatives.",
+    "My current work sits at the intersection of Critical Computing and Creativity Support, with broader interests in Human-Computer Interaction and Data Feminism. I design and develop for interactive experiences, conduct empirical studies with mixed methods, critique human-technology tensions through a sociotechnical lens and speculate for alternatives.",
     "Previously I visited Politecnico di Torino as a junior visiting researcher, and also had research experience in the Future Lab, Tsinghua University. I've obtained my bachelor's degree in Industrial Design (BEng) at China Academy of Art, during which I went for exchange in Willem de Kooning Academy with a focus on Transformation Design (BA)."
   ],
   links: {
