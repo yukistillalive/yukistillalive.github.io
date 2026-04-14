@@ -91,6 +91,12 @@ a { color: inherit; text-decoration: none; }
   flex-shrink: 0;
 }
 
+.sidebar-main {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
 /* SIDEBAR NAME
    font-size / font-weight control how prominent the name appears. */
 .sidebar-brand {
@@ -395,10 +401,12 @@ a { color: inherit; text-decoration: none; }
 /* Below 640px the sidebar collapses into a top bar and
    two-column grids drop to single / two columns.               */
 @media (max-width: 640px) {
-  .site-layout  { grid-template-columns: 1fr; }
-  .sidebar      { position: static; width: 100%; height: auto; padding: 1.5rem; flex-direction: row; flex-wrap: wrap; align-items: center; border-bottom: 1px solid var(--border); }
+  .site-layout  { grid-template-columns: 1fr; grid-template-areas: "main" "sidebar"; }
+  .main-scroll  { grid-area: main; padding: 1.5rem; }
+  .sidebar      { grid-area: sidebar; position: static; width: 100%; height: auto; padding: 1.5rem; flex-direction: column; align-items: flex-start; border-top: 1px solid var(--border); gap: 1.2rem; }
+  .sidebar-main { gap: 1rem; }
   .sidebar-nav  { flex-direction: row; gap: 1rem; }
-  .main-scroll  { padding: 1.5rem; }
+  .sidebar-links { margin-top: 0; }
   .about-grid   { grid-template-columns: 1fr; max-width: 320px; }
   .project-grid { grid-template-columns: repeat(2, 1fr); }
 }
