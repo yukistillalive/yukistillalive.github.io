@@ -2,19 +2,20 @@
     "type": "module",
     "scripts": {
         "dev": "vite",
-        "build": "vite build",
+        "build": "vite build && cp dist/index.html dist/404.html",
         "serve": "vite preview"
     },
     "devDependencies": {
-        "vite": "latest",
-        "@vitejs/plugin-react": "latest"
+        "@vitejs/plugin-react": "latest",
+        "vite": "latest"
     },
     "dependencies": {
-      "firebase": "latest",
-      "mobx": "latest",
-      "mobx-react-lite": "latest",
-      "react": "latest",
-     "react-dom": "latest",
-  "react-router-dom": "latest"
+        "firebase": "latest",
+        "mobx": "latest",
+        "mobx-react-lite": "latest",
+        "react": "latest",
+        "react-dom": "latest",
+        "react-markdown": "^10.1.0",
+        "react-router-dom": "latest"
     }
 }

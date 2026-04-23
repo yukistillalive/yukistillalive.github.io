@@ -2,11 +2,16 @@ import {createElement, Fragment} from "react";
 window.React= {createElement:createElement, Fragment:Fragment};
 
 import { createRoot } from "react-dom/client";
+import { BrowserRouter } from "react-router-dom";
 import { ReactRoot } from "./ReactRoot.jsx";
 import { reactiveModel } from "../mobxReactiveModel.js";
 import "../styles.css";
 
-createRoot(document.getElementById('root')).render(<ReactRoot model={reactiveModel} />);
+createRoot(document.getElementById('root')).render(
+  <BrowserRouter>
+    <ReactRoot model={reactiveModel} />
+  </BrowserRouter>
+);
 
 // const mountedApp= createRoot(document.getElementById('root'))
 // mountedApp.render(<div>hello world!</div>);

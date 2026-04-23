@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export function ProjectsView({ projects }) {
   return (
     <div>
@@ -5,7 +7,7 @@ export function ProjectsView({ projects }) {
       <div className="project-grid">
         {projects.map((proj) => (
           <div className="project-item" key={proj.id}>
-            <a href={proj.link} target="_blank" rel="noreferrer">
+            <Link to={`/projects/${proj.slug}`}>
               <div className="project-thumb">
                 {proj.thumb
                   ? <img src={proj.thumb} alt={proj.title} />
@@ -13,7 +15,7 @@ export function ProjectsView({ projects }) {
                 }
               </div>
               <div className="project-name">{proj.title}</div>
-            </a>
+            </Link>
             <div className="project-desc">{proj.description}</div>
             {proj.tags?.length > 0 && (
               <div className="tag-row">
