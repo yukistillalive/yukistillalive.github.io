@@ -3,6 +3,7 @@ const NAV = [
   { id: "news",         label: "News" },
   { id: "publications", label: "Publications" },
   { id: "projects",     label: "Projects" },
+  { id: "cv",           label: "CV" },
 ];
 
 export function SidebarView({ name, active, email, links, isHome }) {
@@ -25,14 +26,26 @@ export function SidebarView({ name, active, email, links, isHome }) {
       </a>
       <nav className="sidebar-nav">
         {NAV.map(({ id, label }) => (
-          <a
-            key={id}
-            href={`/#${id}`}
-            className={isHome && active === id ? "active" : ""}
-            onClick={(e) => handleNavClick(e, id)}
-          >
-            {label}
-          </a>
+          id === "cv" ? (
+            <a
+              key={id}
+              href={links?.cv}
+              target="_blank"
+              rel="noreferrer"
+              className={label}
+            >
+              {label}
+            </a>
+          ) : (
+            <a
+              key={id}
+              href={`/#${id}`}
+              className={isHome && active === id ? "active" : ""}
+              onClick={(e) => handleNavClick(e, id)}
+            >
+              {label}
+            </a>
+          )
         ))}
       </nav>
       <div className="sidebar-links">
@@ -40,7 +53,6 @@ export function SidebarView({ name, active, email, links, isHome }) {
         {links?.github   && <a href={links.github}   target="_blank" rel="noreferrer">GitHub</a>}
         {links?.linkedin && <a href={links.linkedin} target="_blank" rel="noreferrer">LinkedIn</a>}
         {email           && <a href={`mailto:${email}`}>{email}</a>}
-        {/* {links?.cv    && <a href={links.cv}      target="_blank" rel="noreferrer">CV</a>} */}
       </div>
     </aside>
   );

@@ -14,7 +14,7 @@ export const model = {
     github:  "https://github.com/yukistillalive",
     scholar: "https://scholar.google.com/citations?user=QGG3uUgAAAAJ&hl=en",
     linkedin: "https://www.linkedin.com/in/yue-z-35b170291/",
-    // cv:      "#",
+    cv:      "../content/cv/cv_apr_26.pdf",
   },
   contact: {
     address: "",
