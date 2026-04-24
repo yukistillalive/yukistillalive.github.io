@@ -18,4 +18,12 @@ All portrait datasets used for training were public avaible and authorized, and 
 
 Chinese CHI 2023 Art Gallery & Competition, Nov 2023;
 
-Kunpeng Global Design Award (KPA), Digital Design Track, Excellence Award, Apr 2024;
+Kunpeng Global Design Award (KPA), Digital Design Track, Excellence Award, Apr 2024
+
+## Collaborator
+
+Yue Zhu, Xiaotong Qiu
+
+## Supervisor
+
+Xiaochen Hu, Tianyi Chen (China Academy of Art)

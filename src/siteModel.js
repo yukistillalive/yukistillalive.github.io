@@ -8,7 +8,7 @@ export const model = {
   bio: [
     "Hej, I am Yue! I am a first-year master student studying Interactive Media Technology (MSc) at KTH Royal Institute of Technology.",
     "My current work sits at the intersection of Critical Computing and Creativity Support, with broader interests in Human-Computer Interaction and Data Feminism. I design and develop for interactive experiences, conduct empirical studies with mixed methods, critique human-technology tensions through a sociotechnical lens and speculate for alternatives.",
-    "Previously I visited Politecnico di Torino as a junior visiting researcher, and also had research experience in the Future Lab, Tsinghua University. I've obtained my bachelor's degree in Industrial Design (BEng) at China Academy of Art, during which I went for exchange in Willem de Kooning Academy with a focus on Transformation Design (BA)."
+    "Previously I visited Politecnico di Torino as a junior visiting researcher, and also had research experience in the Future Lab, Tsinghua University during my bachelor's study in Industrial Design (BEng) at China Academy of Art. I also went for exchange in Willem de Kooning Academie with a focus on Transformation Design (BA) in 2024."
   ],
   links: {
     github:  "https://github.com/yukistillalive",
@@ -58,7 +58,7 @@ export const model = {
     {
       id: 3,
       slug: "tangible-negotiation",
-      title: "Designing Tangible Negotiation in Child-Robot Interaction",
+      title: "Designing Tangible Negotiation for Child-Robot Interaction",
       description: "Designing intention-aware motion as tangible feedback for collaborative storytelling in between Child and Swarm Robots.",
       link: "https://vimeo.com/989595382",
       thumb: "/media/projects/03_sui/cover.png",
@@ -78,7 +78,7 @@ export const model = {
     {
       id: 1,
       slug: "face-average",
-      title: "Unveiling the Mystery of the Artist's Average Face",
+      title: "Unveiling the Mystery of Artist's Face",
       description: "Measuring artistic identity by your similarity to the average artist's face.",
       link: "https://vimeo.com/916722327",
       thumb: "/media/projects/01_face/cover.png",
@@ -101,7 +101,7 @@ export const model = {
     {
       id: 6,
       date: "Apr 2026",
-      text: "We are currently seeking creative practitioners for our online study ✨! You are very welcome to participate",
+      text: "We are currently seeking creative practitioners for an online study ✨ You are very welcome to participate",
       link: "https://bucolic-churros-8cbc0b.netlify.app/",
       linkLabel: "here",
     },

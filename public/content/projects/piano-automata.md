@@ -67,3 +67,11 @@ The system was designed and deployed with Unity for front end and Python for bac
 ## Exhibition
 
 Chinese CHI 2023 Art Gallery & Competition, Best Artwork Award and Oral Presentation, Nov 2023
+
+## Collaborator
+
+Yue Zhu, Xiaotong Qiu
+
+## Supervisor
+
+Xiaochen Hu, Tianyi Chen (China Academy of Art)
