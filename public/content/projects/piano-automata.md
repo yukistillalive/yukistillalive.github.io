@@ -2,7 +2,7 @@
 
 With over eight years of classical piano practice, I still feel to move rapidly through musical notes very often without enoughly grasping the underlying emotions or engaging in meaningful dialogue with the composer. This positionality has guided through the design process and reflection.
 
-*Reflective Thinking:*
+*Reflexive questions:*
 
 - How can invisible notes be felt and experienced during a performance?
 - How can the emotions of a pianist be made tangible and trackable?
