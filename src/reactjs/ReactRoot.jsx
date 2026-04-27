@@ -6,6 +6,8 @@ import { Publications } from "./publicationsPresenter.jsx";
 import { Projects } from "./projectsPresenter.jsx";
 import { News } from "./newsPresenter.jsx";
 import { Detail } from "./detailPresenter.jsx";
+import { Blog } from "./blogPresenter.jsx";
+import { BlogPost } from "./blogPostPresenter.jsx";
 
 function MainContent({ model }) {
   return (
@@ -28,6 +30,8 @@ const ReactRoot = observer(function ReactRoot({ model }) {
         <Routes>
           <Route path="/"                  element={<MainContent model={model} />} />
           <Route path="/projects/:slug"    element={<Detail      model={model} />} />
+          <Route path="/blog"              element={<Blog        model={model} />} />
+          <Route path="/blog/:slug"        element={<BlogPost    model={model} />} />
         </Routes>
       </div>
     </div>

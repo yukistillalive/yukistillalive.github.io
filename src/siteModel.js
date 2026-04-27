@@ -1,20 +1,22 @@
 export const model = {
   // Personal info
-  name: "Yue Zhu 朱越 ~☆ﾟ.*･｡",
+  name: "Yue Zhu 朱越",
   role: "Master Student · Interactive Media Technology",
   affiliation: "KTH Royal Institute of Technology",
-  email: "yukizhuyue@outlook.com",
+  email: "yukizhuyue [at] outlook [dot] com",
   photo: "/media/profile/profile.png",
-  bio: [
-    "Hej, I am Yue! I am a first-year master student studying Interactive Media Technology (MSc) at KTH Royal Institute of Technology.",
-    "My current work sits at the intersection of Critical Computing and Creativity Support, with broader interests in Human-Computer Interaction and Data Feminism. I design and develop for interactive experiences, conduct empirical studies with mixed methods, critique human-technology tensions through a sociotechnical lens and speculate for alternatives.",
-    "Previously I visited Politecnico di Torino as a junior visiting researcher, and also had research experience in the Future Lab, Tsinghua University during my bachelor's study in Industrial Design (BEng) at China Academy of Art. I also went for exchange in Willem de Kooning Academie with a focus on Transformation Design (BA) in 2024."
-  ],
+  bio: `Hej hej, I am Yue, currently a first-year master student studying Interactive Media Technology (MSc) at KTH Royal Institute of Technology.
+
+My current work sits at the intersection of Critical Computing and Creativity Support, with broader interests in Human-Computer Interaction and Data Feminism. I design and develop for interactive experiences, conduct empirical studies with mixed methods, critique human-technology tensions through a sociotechnical lens and speculate for alternatives.
+
+Previously during my undergraduate studies in Industrial Design (BEng) at China Academy of Art, I gained valuable research experience at POEL Lab (Politecnico di Torino) and the Future Lab (Tsinghua University). I also went for exchange in Willem de Kooning Academie with a focus on Transformation Design (BA) in 2024. You are welcome to view my full [CV](/content/cv/cv_apr_26.pdf) here.
+
+To confront occasionally increased anxiety, I started to write down some [thoughts and reflection](/blog).`,
   links: {
-    github:  "https://github.com/yukistillalive",
+    // github:  "https://github.com/yukistillalive",
     scholar: "https://scholar.google.com/citations?user=QGG3uUgAAAAJ&hl=en",
     linkedin: "https://www.linkedin.com/in/yue-z-35b170291/",
-    cv:      "../content/cv/cv_apr_26.pdf",
+    // cv:      "../content/cv/cv_apr_26.pdf",
   },
   contact: {
     address: "",
@@ -94,6 +96,20 @@ export const model = {
     //   label: "CSCW '22",
     //   tags: ["React", "Firebase"],
     // },
+  ],
+
+  // Blog
+  blog: [
+    // Add posts here. Each post needs a matching markdown file at:
+    // /public/content/blog/{slug}.md
+    {
+      id: 1,
+      slug: "on-anxiety-and-writing",
+      title: "On Anxiety and Writing",
+      date: "Apr 27, 2026",
+      description: "Why I started writing, and what I hope it becomes.",
+      tags: ["reflection"],
+    },
   ],
 
   // News

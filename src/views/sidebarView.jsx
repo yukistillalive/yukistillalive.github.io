@@ -1,22 +1,24 @@
+import { Link } from "react-router-dom";
+
 const NAV = [
-  { id: "about",        label: "About" },
-  { id: "news",         label: "News" },
-  { id: "publications", label: "Publications" },
-  { id: "projects",     label: "Projects" },
-  { id: "cv",           label: "CV" },
+  { id: "about",        label: "About",        kind: "section" },
+  { id: "news",         label: "News",         kind: "section" },
+  { id: "publications", label: "Publications",  kind: "section" },
+  { id: "projects",     label: "Projects",     kind: "section" },
+  // { id: "blog",         label: "Blog",         kind: "route",    to: "/blog" },
+
 ];
 
-export function SidebarView({ name, active, email, links, isHome }) {
+export function SidebarView({ name, active, email, links, isHome, pathname }) {
   function scrollTo(id) {
     document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
   }
 
-  function handleNavClick(e, id) {
+  function handleSectionClick(e, id) {
     if (isHome) {
       e.preventDefault();
       scrollTo(id);
     }
-    // else: let browser follow href="/#id" naturally
   }
 
   return (
@@ -25,32 +27,32 @@ export function SidebarView({ name, active, email, links, isHome }) {
         {name}
       </a>
       <nav className="sidebar-nav">
-        {NAV.map(({ id, label }) => (
-          id === "cv" ? (
-            <a
-              key={id}
-              href={links?.cv}
-              target="_blank"
-              rel="noreferrer"
-              className={label}
-            >
-              {label}
-            </a>
-          ) : (
+        {NAV.map(({ id, label, kind, to }) => {
+          if (kind === "external") {
+            return <a key={id} href={links?.cv} target="_blank" rel="noreferrer">{label}</a>;
+          }
+          if (kind === "route") {
+            return (
+              <Link key={id} to={to} className={pathname?.startsWith(to) ? "active" : ""}>
+                {label}
+              </Link>
+            );
+          }
+          return (
             <a
               key={id}
               href={`/#${id}`}
               className={isHome && active === id ? "active" : ""}
-              onClick={(e) => handleNavClick(e, id)}
+              onClick={(e) => handleSectionClick(e, id)}
             >
               {label}
             </a>
-          )
-        ))}
+          );
+        })}
       </nav>
       <div className="sidebar-links">
         {links?.scholar  && <a href={links.scholar}  target="_blank" rel="noreferrer">Google Scholar</a>}
-        {links?.github   && <a href={links.github}   target="_blank" rel="noreferrer">GitHub</a>}
+        {/* {links?.github   && <a href={links.github}   target="_blank" rel="noreferrer">GitHub</a>} */}
         {links?.linkedin && <a href={links.linkedin} target="_blank" rel="noreferrer">LinkedIn</a>}
         {email           && <a href={`mailto:${email}`}>{email}</a>}
       </div>

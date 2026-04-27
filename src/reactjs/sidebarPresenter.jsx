@@ -26,7 +26,7 @@ const Sidebar = observer(function Sidebar({ model }) {
     return () => window.removeEventListener("scroll", onScroll);
   }, [isHome]);
 
-  return <SidebarView name={model.name} active={active} email={model.email} links={model.links} isHome={isHome} />;
+  return <SidebarView name={model.name} active={active} email={model.email} links={model.links} isHome={isHome} pathname={location.pathname} />;
 });
 
 export { Sidebar };

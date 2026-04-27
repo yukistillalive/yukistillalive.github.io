@@ -1,3 +1,6 @@
+import Markdown from "react-markdown";
+import { Link } from "react-router-dom";
+
 export function HomeView({ model }) {
   const { name, bio, photo } = model;
 
@@ -11,7 +14,16 @@ export function HomeView({ model }) {
           }
         </div>
         <div className="about-body">
-          {bio.map((para, i) => <p key={i}>{para}</p>)}
+          <Markdown
+            components={{
+              a: ({ href, children }) =>
+                href?.startsWith("/") && !/\.\w+$/.test(href)
+                  ? <Link className="bio-blog-link" to={href}>{children}</Link>
+                  : <a className="bio-blog-link" href={href} target="_blank" rel="noreferrer">{children}</a>
+            }}
+          >
+            {bio}
+          </Markdown>
         </div>
       </div>
     </div>
