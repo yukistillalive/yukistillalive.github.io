@@ -32,7 +32,7 @@ To confront occasionally increased anxiety, I started to write down some [though
       venue: "Full paper conditionally accepted by ACM IMX'26",
       year: 2026,
       link: "#",
-      tags: ["AI Critique", "Media Study", "Creattive Industries"],
+      tags: ["AI Critique", "Media Study", "Creative Industries"],
     },
     {
       id: 2,
