@@ -4,7 +4,7 @@ export const model = {
   role: "Master Student · Interactive Media Technology",
   affiliation: "KTH Royal Institute of Technology",
   email: "yukizhuyue [at] outlook [dot] com",
-  photo: "/media/profile/profile.png",
+  photo: "/media/profile/profile.jpeg",
   bio: `Hej hej, I am Yue, currently a first-year master student studying Interactive Media Technology (MSc) at KTH Royal Institute of Technology.
 
 My current work sits at the intersection of Critical Computing and Creativity Support, with broader interests in Human-Computer Interaction and Data Feminism. I design and develop for interactive experiences, conduct empirical studies with mixed methods, critique human-technology tensions through a sociotechnical lens and speculate for alternatives.
