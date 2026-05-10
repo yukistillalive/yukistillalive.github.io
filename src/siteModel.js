@@ -9,7 +9,7 @@ export const model = {
 
 My current work sits at the intersection of Critical Computing and Creativity Support, with broader interests in Human-Computer Interaction and Data Feminism. I design and develop for interactive experiences, conduct empirical studies with mixed methods, critique human-technology tensions through a sociotechnical lens and speculate for alternatives.
 
-Previously during my undergraduate studies in Industrial Design (BEng) at China Academy of Art, I gained valuable research experience at POEL Lab (Politecnico di Torino) and the Future Lab (Tsinghua University). I also went for exchange in Willem de Kooning Academie with a focus on Transformation Design (BA) in 2024. You are welcome to view my full [CV](/content/cv/cv_apr_26.pdf) here.
+Previously during my undergraduate studies in Industrial Design (BEng) at China Academy of Art, I gained valuable research experience at POEL Lab, Politecnico di Torino and MiLab, Tsinghua University. I also went for exchange in Willem de Kooning Academie with a focus on Transformation Design (BA) in 2024. You are welcome to view my full [CV](/content/cv/cv_apr_26.pdf) here.
 
 To confront occasionally increased anxiety, I started to write down some [thoughts and reflection](/blog).`,
   links: {
@@ -108,6 +108,14 @@ To confront occasionally increased anxiety, I started to write down some [though
       title: "On Anxiety and Writing",
       date: "Apr 27, 2026",
       description: "Why I started writing, and what I hope it becomes.",
+      tags: ["reflection"],
+    },
+    {
+      id: 2,
+      slug: "a-reminder-to-myself",
+      title: "A Reminder to Myself When Feeling Gray",
+      date: "May 10, 2026",
+      description: "A reminder to myself when feeling lost and restless.",
       tags: ["reflection"],
     },
   ],
