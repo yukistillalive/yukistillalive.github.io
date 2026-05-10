@@ -528,6 +528,19 @@ a { color: inherit; text-decoration: none; }
 .detail-content hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
 .detail-content img { max-width: 100%; display: block; margin: 1rem 0; }
 
+.detail-pdf-wrap {
+  margin-bottom: 1.4rem;
+  border: 1px solid var(--border);
+  background: #f7f5f1;
+}
+
+.detail-pdf {
+  width: 100%;
+  height: min(78vh, 900px);
+  border: 0;
+  display: block;
+}
+
 .detail-status { font-size: 0.85rem; color: var(--muted); }
 
 @media (max-width: 640px) {

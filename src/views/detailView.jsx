@@ -28,6 +28,15 @@ export function DetailView({ project, content, loading, error, onBack }) {
       <div className="detail-content">
         {loading && <p className="detail-status">Loading…</p>}
         {error   && <p className="detail-status">{project.description}</p>}
+        {project.pdf && !loading && !error && (
+          <div className="detail-pdf-wrap">
+            <iframe
+              className="detail-pdf"
+              src={project.pdf}
+              title={`${project.title} PDF`}
+            />
+          </div>
+        )}
         {content && <Markdown>{content}</Markdown>}
       </div>
     </div>

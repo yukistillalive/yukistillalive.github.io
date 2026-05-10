@@ -48,6 +48,17 @@ To confront occasionally increased anxiety, I started to write down some [though
   // Projects
   projects: [
     {
+      id: 5,
+      slug: "birthday-ritual-workbook",
+      title: "Designing Ritual for Meaningful Micro-Moments: A Playful Birthday Ritual",
+      description: "Revive birthday celebration from afar through a playful ritual.",
+      link: null,
+      thumb: "/media/projects/05_ritual/cover.png",
+      pdf: "/media/projects/05_ritual/Birthday%20Ritual%20Workbook_revision.pdf",
+      label: "Revive birthday celebration from afar through a playful ritual.",
+      tags: ["Interaction Design", "Reflection", "2025"],
+    },
+    {
       id: 4,
       slug: "unveiling-ai-hype",
       title: "Designing Responsible AI Communication",
