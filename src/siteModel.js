@@ -9,7 +9,7 @@ export const model = {
 
 My current work sits at the intersection of Critical Computing and Creativity Support, with broader interests in Human-Computer Interaction and Data Feminism. I design and develop for interactive experiences, conduct empirical studies with mixed methods, critique human-technology tensions through a sociotechnical lens and speculate for alternatives.
 
-Previously during my undergraduate studies in Industrial Design (BEng) at China Academy of Art, I gained valuable research experience at POEL Lab, Politecnico di Torino and MiLab, Tsinghua University. I also went for exchange in Willem de Kooning Academie with a focus on Transformation Design (BA) in 2024. You are welcome to view my full [CV](/content/cv/cv_apr_26.pdf) here.
+Previously during my undergraduate studies in Industrial Design (BEng) at China Academy of Art, I gained valuable research experience at POEL Lab, Politecnico di Torino and MiLab, Tsinghua University. I also went for exchange in Willem de Kooning Academie with a focus on Transformation Design (BA) in 2024. You are welcome to view my full [CV](https://drive.google.com/file/d/1426ZXFoRn5OXuS9Jx-bHQJX8pgBK07cB/view?usp=drive_link) here.
 
 To confront occasionally increased anxiety, I started to write down some [thoughts and reflection](/blog).`,
   links: {
@@ -129,6 +129,30 @@ To confront occasionally increased anxiety, I started to write down some [though
       description: "A reminder to myself when feeling lost and restless.",
       tags: ["reflection"],
     },
+    // {
+    //   id: 3,
+    //   slug: "what-are-we-looking-for-when-asking-an-ai",
+    //   title: "What We Are Looking for When Asking An AI",
+    //   date: "Jun 15, 2026",
+    //   description: "What are we looking for when asking an AI? A reflection on the design of AI communication.",
+    //   tags: ["reflection", "AI Critique"],
+    // },
+    // {
+    //   id: 4,
+    //   slug: "speculate-for-meaningful-micro-moments",
+    //   title: "Speculate for Meaningful Micro-Moments",
+    //   date: "Jul 20, 2026",
+    //   description: "A brief reflection on the importance of designing for meaningful micro-moments in human-computer interaction.",
+    //   tags: ["reflection", "Interaction Design"],
+    // },
+    // {
+    //   id: 5,
+    //   slug: "a-visit-to-andon-cafe",
+    //   title: "A Visit to Andon Café -- First Café in the World Run by AI",
+    //   date: "Aug 20, 2026",
+    //   description: "A visit to Andon Café, the first café in the world run by AI.",
+    //   tags: ["reflection", "AI Critique"],
+    // }
   ],
 
   // News

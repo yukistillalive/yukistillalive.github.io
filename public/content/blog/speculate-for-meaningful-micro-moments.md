@@ -1,0 +1,2 @@
+## Reflect on Speculative Design
+I used to be arrogant about what we are designing and speculating for in art academy, and considered them as 'fancy taste' that normal design can not catch up with - those that focus on practical problems and seem cliché to me.
