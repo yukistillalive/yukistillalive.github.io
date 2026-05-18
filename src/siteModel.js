@@ -48,6 +48,17 @@ To confront occasionally increased anxiety, I started to write down some [though
   // Projects
   projects: [
     {
+      id: 6,
+      slug: "feminist-critique-to-cst",
+      title: "Creative Infrastructure as Ideology",
+      description: "A work-in-progress essay draft",
+      link: null,
+      thumb: "/media/projects/06_feminist/cover.png",
+      pdf: "/media/projects/06_feminist/feminist critique to cst.pdf",
+      label: "A Feminist Critique of Designing Creativity Support Tools In The Age of Generative AI",
+      tags: ["Feminist HCI", "Creativity Support", "Generative AI", "2026"],
+    },
+    {
       id: 5,
       slug: "birthday-ritual-workbook",
       title: "Designing Ritual for Meaningful Micro-Moments: A Playful Birthday Ritual",

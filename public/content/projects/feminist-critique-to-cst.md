@@ -1,0 +1,1 @@
+This is an essay working in progress. Communication and critique is welcome!
