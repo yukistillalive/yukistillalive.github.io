@@ -48,6 +48,17 @@ To confront occasionally increased anxiety, I started to write down some [though
   // Projects
   projects: [
     {
+      id: 7,
+      slug: "seeking-answer-from-tarot",
+      title: "How Do I Seek Answers from Tarot",
+      description: "A react web app for Tarot divination, designed and developed for reflection and meaning-making.",
+      link: "https://tarot-app-dev-yuki.web.app/",
+      thumb: "/media/projects/07_tarot/cover.png",
+      label: "A react web app for Tarot divination, designed and developed for reflection and meaning-making.",
+      link: "https://tarot-app-dev-yuki.web.app/",
+      tags: ["Prototype", "Interaction Design", "2026"],
+    },
+    {
       id: 6,
       slug: "feminist-critique-to-cst",
       title: "Creative Infrastructure as Ideology",
