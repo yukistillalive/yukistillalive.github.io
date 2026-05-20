@@ -179,6 +179,7 @@ To confront occasionally increased anxiety, I started to write down some [though
 
   // News
   news: [
+    { id: 7, date: "May 2026", text: "I am going to serve as a student volunteer for IMX'26!" },
     {
       id: 6,
       date: "Apr 2026",
