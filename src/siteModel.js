@@ -11,6 +11,8 @@ My current work sits at the intersection of Critical Computing and Creativity Su
 
 Previously during my undergraduate studies in Industrial Design (BEng) at China Academy of Art, I gained valuable research experience at POEL Lab, Politecnico di Torino and MiLab, Tsinghua University. I also went for exchange in Willem de Kooning Academie with a focus on Transformation Design (BA) in 2024. You are welcome to view my full [CV](https://drive.google.com/file/d/1426ZXFoRn5OXuS9Jx-bHQJX8pgBK07cB/view?usp=drive_link) here.
 
+I'm grateful for every institution that shaped my education. While technical backgrounds (bachelor's degrees) are often valued over those acquired later, I feel fortunate to have started at an art academy before KTH, which is not as a gap to compensate for, but as a foundation that shaped my perspective. I think a bachelor's degree largely defines one's positionality and epistemic values toward their lifelong work, and mine gave me the freedom to think beyond conventional technical discourses. That grounding is what allows me to practice mindfully at the intersection of technology and society.
+
 To confront occasionally increased anxiety, I started to write down some [thoughts and reflection](/blog).`,
   links: {
     // github:  "https://github.com/yukistillalive",
