@@ -257,6 +257,12 @@ a { color: inherit; text-decoration: none; }
 
 /* ── News ────────────────────────────────────────────────── */
 .news-list { display: flex; flex-direction: column; }
+.news-scroll {
+  max-height: 15rem;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) transparent;
+}
 
 /* NEWS ROW
    --col-date : date column width — widen for longer date strings */
@@ -273,22 +279,6 @@ a { color: inherit; text-decoration: none; }
 }
 .news-inline-link:hover { color: var(--accent); }
 
-/* MORE LINK — plain underlined text, no button chrome          */
-.more-link {
-  display: inline-block;
-  margin-top: 1.1rem;
-  font-size: 0.78rem;
-  color: var(--subtle);
-  border-bottom: 1px solid var(--border);
-  padding-bottom: 1px;
-  cursor: pointer;
-  background: none;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  font-family: inherit;
-}
-.more-link:hover { color: var(--accent); border-color: var(--accent); }
 
 /* ── Publications ────────────────────────────────────────── */
 .pub-list { display: flex; flex-direction: column; gap: 1.4rem; }
