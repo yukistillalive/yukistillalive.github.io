@@ -182,7 +182,7 @@ To confront occasionally increased anxiety, I started to write down some [though
   // News
   news: [
     { id: 8, date: "Jun 2026", text: "I'm honored to be awarded Gary Marsden Travel Award by SIGCHI for IMX'26, and will serve as a student volunteer during the conference!" },
-    { id: 7, date: "May 2026", text: "Project has been selected for NAVET Student Festival 2026 with Tekniska!" },
+    { id: 7, date: "May 2026", text: "Project 'Asking PianoAutomata' has been selected for NAVET Student Festival 2026 with Tekniska!" },
     {
       id: 6,
       date: "Apr 2026",
