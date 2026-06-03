@@ -65,9 +65,9 @@ To confront occasionally increased anxiety, I started to write down some [though
       description: "A work-in-progress essay draft",
       link: null,
       thumb: "/media/projects/06_feminist/cover.png",
-      pdf: "/media/projects/06_feminist/feminist critique to cst.pdf",
+      // pdf: "/media/projects/06_feminist/feminist critique to cst.pdf",
       label: "A Feminist Critique of Designing Creativity Support Tools In The Age of Generative AI",
-      tags: ["Feminist HCI", "Creativity Support", "Generative AI", "2026"],
+      tags: ["Gender and Technology", "Creativity Support", "Generative AI", "2026"],
     },
     {
       id: 5,
