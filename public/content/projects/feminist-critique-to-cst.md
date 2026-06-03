@@ -1,6 +1,6 @@
 *This is a working-in-progress essay for AK2202 Gender and Technology. Communication and critique is welcome!*
 
-# Creative Infrastructure as Ideology: A Feminist Critique of Designing Creativity
+# A Feminist Critique of Designing Creativity Support Tools In The Age of Generative AI
 
 ## 1 Introduction
 In 2022, a visual artwork titled ‘Théâtre D’opéra Spatial’ bagged the top prize at Colorado State Fair’s fine art competition however spurred controversy as many have objected over the use of Generative AI (GenAI) in art. In this age that everyone is talking about Artificial Intelligence (AI), practitioners in creative industries emerge as front runners of using and being affected by GenAI (Sun et al., 2024). As they benefit from the escalating efficiency, creativity, and productivity these tools provide with, controversies and conflicts inevitably follow, from ethics discussion on automation of creative work (Vartiainen & Tedre, 2023), anxiety of job displacement within creative economics (Erickson, 2024) to legal disputes around copyrightability (Kyi et al., 2025) and compensation (Seger et al., 2023).
