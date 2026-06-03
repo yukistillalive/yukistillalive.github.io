@@ -25,6 +25,7 @@ export function ProjectsView({ projects }) {
           </div>
         ))}
       </div>
+      <p className="home-tagline">✨ I look for meaning in meaningless interactions. ✨</p>
     </div>
   );
 }
