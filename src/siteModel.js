@@ -50,13 +50,13 @@ To confront occasionally increased anxiety, I started to write down some [though
     {
       id: 7,
       slug: "seeking-answer-from-tarot",
-      title: "How Do I Seek Answers from Tarot",
+      title: "Seeking Answers from Tarot",
       description: "A react web app for Tarot divination, designed and developed for reflection and meaning-making.",
       link: "https://tarot-app-dev-yuki.web.app/",
       thumb: "/media/projects/07_tarot/cover.png",
       label: "A react web app for Tarot divination, designed and developed for reflection and meaning-making.",
       link: "https://tarot-app-dev-yuki.web.app/",
-      tags: ["Prototype", "Interaction Design", "2026"],
+      tags: ["Web App", "Interaction Design"],
     },
     {
       id: 6,
@@ -67,7 +67,7 @@ To confront occasionally increased anxiety, I started to write down some [though
       thumb: "/media/projects/06_feminist/cover.png",
       // pdf: "/media/projects/06_feminist/feminist critique to cst.pdf",
       label: "A Feminist Critique of Designing Creativity Support Tools In The Age of Generative AI",
-      tags: ["Gender and Technology", "Creativity Support", "Generative AI", "2026"],
+      tags: ["Gender and Technology", "Creativity Support", "Generative AI"],
     },
     {
       id: 5,
@@ -78,7 +78,7 @@ To confront occasionally increased anxiety, I started to write down some [though
       thumb: "/media/projects/05_ritual/cover.png",
       pdf: "/media/projects/05_ritual/Birthday%20Ritual%20Workbook_revision.pdf",
       label: "Revive birthday celebration from afar through a playful ritual.",
-      tags: ["Interaction Design", "Reflection", "2025"],
+      tags: ["Interaction Design", "Design Reflection"],
     },
     {
       id: 4,
@@ -88,7 +88,7 @@ To confront occasionally increased anxiety, I started to write down some [though
       link: null,
       thumb: "/media/projects/04_hype/cover.png",
       label: "A critique to unveil hype in GenAI advertisement media by examining the narrative structures that contribute to constructing our collective imagination.",
-      tags: ["Critical Computing", "2024-2026"],
+      tags: ["Critical Computing", "AI & Social Justice", "AI Trust"],
     },
     {
       id: 3,
@@ -98,7 +98,7 @@ To confront occasionally increased anxiety, I started to write down some [though
       link: "https://vimeo.com/989595382",
       thumb: "/media/projects/03_sui/cover.png",
       label: "Designing intention-aware motion as tangible feedback for collaborative storytelling in between Child and Swarm Robots.",
-      tags: ["Creativity Support", "Interaction Design", "2024"],
+      tags: ["Creativity Support", "Child-Robot Interaction"],
     },
     {
       id: 2,
@@ -108,7 +108,7 @@ To confront occasionally increased anxiety, I started to write down some [though
       link: "https://vimeo.com/916722480?share=copy",
       thumb: "/media/projects/02_piano/cover.png",
       label: "Approaching the invisible dynamics of emotional resonance with daily objects, deconstructing and mutating a piano.",
-      tags: ["Physical Interaction", "2023"],
+      tags: ["Physical Interaction", "First-Person Perspective"],
     },
     {
       id: 1,
@@ -118,7 +118,7 @@ To confront occasionally increased anxiety, I started to write down some [though
       link: "https://vimeo.com/916722327",
       thumb: "/media/projects/01_face/cover.png",
       label: "Measuring artistic identity by your similarity to the average artist's face.",
-      tags: ["Digital Interactive Art", "Design Speculation", "2023"],
+      tags: ["Digital Interactive Art", "Design Speculation"],
     },
     // {
     //   id: 3,
@@ -179,7 +179,7 @@ To confront occasionally increased anxiety, I started to write down some [though
 
   // News
   news: [
-    { id: 8, date: "Jun 2026", text: "I'm honored to receive Gary Marsden Travel Award by SIGCHI for IMX'26, and will serve as a student volunteer during the conference!" },
+    { id: 8, date: "Jun 2026", text: "I'm honored to receive Gary Marsden Travel Award by SIGCHI for IMX'26 🥳, and will serve as a student volunteer during the conference!" },
     { id: 7, date: "May 2026", text: "Project 'Asking PianoAutomata' has been selected for NAVET Student Festival 2026 with Tekniska!" },
     {
       id: 6,

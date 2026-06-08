@@ -75,3 +75,7 @@ Yue Zhu, Xiaotong Qiu
 ## Supervisor
 
 Xiaochen Hu, Tianyi Chen (China Academy of Art)
+
+## Code Repo
+
+https://github.com/yukistillalive/PianoAutomata
