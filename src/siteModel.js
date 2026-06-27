@@ -151,6 +151,14 @@ To confront occasionally increased anxiety, I started to write down some [though
       description: "A reminder to myself when feeling lost and restless.",
       tags: ["reflection"],
     },
+    {
+      id: 3,
+      slug: "a-study-note-on-statistics",
+      title: "A study note on statistics for UX research",
+      date: "Jun 15, 2026",
+      description: "A study note on statistics.",
+      tags: ["statistics", "UX Research", "study note"],
+    }
     // {
     //   id: 3,
     //   slug: "what-are-we-looking-for-when-asking-an-ai",
