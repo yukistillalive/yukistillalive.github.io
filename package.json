@@ -11,11 +11,15 @@
     },
     "dependencies": {
         "firebase": "latest",
+        "katex": "^0.17.0",
         "mobx": "latest",
         "mobx-react-lite": "latest",
         "react": "latest",
         "react-dom": "latest",
         "react-markdown": "^10.1.0",
-        "react-router-dom": "latest"
+        "react-router-dom": "latest",
+        "rehype-katex": "^7.0.1",
+        "remark-gfm": "^4.0.1",
+        "remark-math": "^6.0.0"
     }
 }
