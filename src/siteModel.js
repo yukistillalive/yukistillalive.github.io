@@ -187,7 +187,7 @@ To confront occasionally increased anxiety, I started to write down some [though
 
   // News
   news: [
-    { id: 9, date: "Jul 2026", text: "Attending summer school 'AI Dreaming Together' at Shenzhen, by PoliTo and SUSTech." },
+    { id: 9, date: "Jul 2026", text: "Attending summer school 'AI Dreaming Together' in Shenzhen, by PoliTo and SUSTech." },
     { id: 8, date: "Jun 2026", text: "I'm honored to receive Gary Marsden Travel Award by SIGCHI for IMX'26 🥳, and will serve as a student volunteer during the conference!" },
     { id: 7, date: "May 2026", text: "Project 'Asking PianoAutomata' has been selected for NAVET Student Festival 2026 with Tekniska!" },
     {

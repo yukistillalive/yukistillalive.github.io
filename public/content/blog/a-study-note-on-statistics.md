@@ -16,7 +16,7 @@ Interpreting Effect Sizes (Cohen, 2013; https://www.statisticssolutions.com/comp
 | Correlation (Relationship) | Pearson’s r | 0.10 | 0.30 | 0.50 |
 | (M)AN(C)OVA (F-tests)| Partial ηp2 | 0.01 | 0.06 | 0.14 |
 | G*Power (F-tests) | Cohen’s f | 0.10 | 0.25 | 0.40 |
-* Note that Partial ηp2 is observed in data while Cohen’s f is standard deviations for power analysis: $$f = \sqrt{\frac{\eta_p^2}{1 - \eta_p^2}}$$
+* Note that Partial ηp2 is observed in data while Cohen’s f is standard deviations for power analysis: $f = \sqrt{\frac{\eta_p^2}{1 - \eta_p^2}}$
 * In a MANCOVA, the "Multivariate" effect size is often reported as Pillai's Trace or a multivariate version of $\eta_p^2$
 
 Cohen, J. (1988). Statistical power analysis for the behavioral sciences (2nd ed.). Lawrence Erlbaum Associates.
@@ -44,7 +44,10 @@ Main Effect
 
 Interaction Effect (Moderation Effect)
 - An interaction effect occurs when the relationship between X and Y depends on the level of a third variable Z. Z is called the moderator. It answers the question: does the effect of X on Y differ for different people or contexts?
-- A good explanation of interaction effect and main effect in factorial studies using graphs (https://www.youtube.com/watch?v=ivCv9vMTq-g). The presenter analvzes data comparing kevboard performance whiestanding or sitting.
+- A good explanation of interaction effect and main effect in factorial studies using graphs (https://www.youtube.com/watch?v=ivCv9vMTq-g). The presenter analyzes data comparing keyboard performance while standing or sitting.
 
 Mediation Effect
 - A mediation effect occurs when X affects Y through an intermediate variable M, called the mediator. It answers the question: why or how does X affect Y, what is the mechanism?
+
+## Useful Tutorials
+https://allanhewitt.quarto.pub/manova-and-mancova/
