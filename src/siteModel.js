@@ -158,6 +158,14 @@ To confront occasionally increased anxiety, I started to write down some [though
       date: "Jun 15, 2026",
       description: "A study note on statistics.",
       tags: ["statistics", "UX Research", "study note"],
+    },
+    {
+      id: 4,
+      slug: "a-reflection-on-imx",
+      title: "A Reflection on Attending IMX'26",
+      date: "Jul 20, 2026",
+      description: "A reflection on attending IMX'26.",
+      tags: ["reflection", "IMX'26"],
     }
     // {
     //   id: 3,
