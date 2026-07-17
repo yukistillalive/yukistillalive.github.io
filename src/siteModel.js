@@ -7,11 +7,11 @@ export const model = {
   photo: "/media/profile/profile.jpeg",
   bio: `Thanks for stopping by! I am a master's student studying Interactive Media Technology (MSc) at KTH Royal Institute of Technology. Through a sociotechnical lens, I design and develop for meaningful interactive experiences, conduct empirical study to perceive and reflect, and speculate for alternative human-technology relationship. My current interest includes Critical Computing, Creativity Support, Data Feminism, and more broadly, Human-Computer Interaction. 
 
-Previously during my undergraduate studies in Industrial Design (BEng) at China Academy of Art, I have gained valuable research experience at POEL Lab, Politecnico di Torino and MiLab, Tsinghua University. Before those, I also went for exchange in Willem de Kooning Academie with a focus on Transformation Design (BA). View my full [CV](https://drive.google.com/file/d/1qfp0cRNJ__H4Rj9sVOis4C9qNOafOxUL/view?usp=sharing) here.
+Previously during my undergraduate studies in Industrial Design (BEng) at China Academy of Art, I have gained valuable research experience at POEL Lab, Politecnico di Torino and MiLab, Tsinghua University. Before those, I went for exchange study at Willem de Kooning Academie with a focus on Transformation Design (BA). View my full [CV](https://drive.google.com/file/d/1qfp0cRNJ__H4Rj9sVOis4C9qNOafOxUL/view?usp=sharing) here.
 
-I'm grateful for every institution that shaped my education. While technical backgrounds (bachelor's degrees) are often valued over those acquired later, I feel fortunate to have started at an art academy before KTH, which I do not consider as a gap to compensate for, yet to a another sense, as a foundation that shaped my perspective. I think a bachelor's study largely defines one's positionality and epistemic values toward their lifelong work, and mine gave me the freedom to think beyond conventional technical discourses and to practice mindfully at the intersection of technology and society.
+I'm grateful for every institution that shaped my education. While technical backgrounds (bachelor's degrees) are often valued over those acquired later, I feel fortunate to have started at an art academy before KTH, which I do not consider as a gap to compensate for, yet a foundation that largely defines my positionality and gives me the freedom to think beyond conventional technical discourses and to practice mindfully at the intersection of technology and society.
 
-To confront occasionally increased anxiety, I started to write down some [thoughts and reflection](/blog).`,
+My name Yue 越 pronounces as 'Yoo-eh', which I interpret as 'radical'. Besides, I also enjoy my friends calling me 'Yuki' as an alternative. To confront occasionally increased anxiety, I started to write down some [thoughts and reflection](/blog).`,
   links: {
     // github:  "https://github.com/yukistillalive",
     scholar: "https://scholar.google.com/citations?user=QGG3uUgAAAAJ&hl=en",
@@ -146,7 +146,7 @@ To confront occasionally increased anxiety, I started to write down some [though
     {
       id: 2,
       slug: "a-reminder-to-myself",
-      title: "A Reminder to Myself When Feeling Gray",
+      title: "A Reminder to Myself",
       date: "May 10, 2026",
       description: "A reminder to myself when feeling lost and restless.",
       tags: ["reflection"],
@@ -162,9 +162,9 @@ To confront occasionally increased anxiety, I started to write down some [though
     {
       id: 4,
       slug: "a-reflection-on-imx",
-      title: "A Reflection on Attending IMX'26",
+      title: "Attending IMX'26",
       date: "Jul 20, 2026",
-      description: "A reflection on attending IMX'26.",
+      description: "My first oral presentation at an international conference!",
       tags: ["reflection", "IMX'26"],
     }
     // {

@@ -6,7 +6,7 @@ This is done in a group project of four, where I was responsible for DashView an
 
 ## Collaborator
 
-Yue Zhu, Tianyang Lu, Yuewei He, Guoxi Pan
+Yue Zhu, Yuewei He, Tianyang Lu, Guoxi Pan
 
 ## Code Repo
 

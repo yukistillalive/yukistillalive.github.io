@@ -29,19 +29,19 @@
    ════════════════════════════════════════════════════════════ */
 :root {
   /* colors */
-  --bg:        #ddd8cd;
-  --text:      #232323;
-  --accent:    #fff152;
+  --bg:        #ffffff; 
+  --text:      #49354f;
+  --accent:    #ff5cf1;
   --muted:     #696969;
-  --faint:     #232323;
+  --faint:     #49354f;
   --subtle:    #888;
   --dim:       #aaa;
   --surface:   #ddd;
   --surface-2: #e8e8e8;
-  --tag-bg:    #f3f3f3;
-  --tag-text:  #666;
-  --border:    #ccc;
-  --strong:    #111;
+  --tag-bg:    #fce4ffe3;
+  --tag-text:  #878787;
+  --border:    #49354f;
+  --strong:    #49354f;
 
   /* typography */
   --font:      "Helvetica Neue", Helvetica, Arial, sans-serif;
