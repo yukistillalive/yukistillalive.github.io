@@ -9,7 +9,7 @@ export const model = {
 
 Previously during my undergraduate studies in Industrial Design (BEng) at China Academy of Art, I have gained valuable research experience at POEL Lab, Politecnico di Torino and MiLab, Tsinghua University. Before those, I went for exchange study at Willem de Kooning Academie with a focus on Transformation Design (BA). View my full [CV](https://drive.google.com/file/d/1qfp0cRNJ__H4Rj9sVOis4C9qNOafOxUL/view?usp=sharing) here.
 
-I'm grateful for every institution that shaped my education. While technical backgrounds (bachelor's degrees) are often valued over those acquired later, I feel fortunate to have started at an art academy before KTH, which I do not consider as a gap to compensate for, yet a foundation that largely defines my positionality and gives me the freedom to think beyond conventional technical discourses and to practice mindfully at the intersection of technology and society.
+I'm grateful for every institution that shaped my education. Starting at an art academy before KTH gave me the freedom to think beyond conventional technical discourses and to practice mindfully at the intersection of technology and society, which largely defines where my positionality of research and design comes from.
 
 My name Yue 越 pronounces as 'Yoo-eh', which I interpret as 'radical'. Besides, I also enjoy my friends calling me 'Yuki' as an alternative. To confront occasionally increased anxiety, I started to write down some [thoughts and reflection](/blog).`,
   links: {
