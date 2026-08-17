@@ -2,7 +2,7 @@
 
 ## About
 
-TangibleNegotiation designs intention-aware motion as tangible feedback for collaborative storytelling between children and swarm robots. We further probe its design opportunities through a serie of multi-stakeholder workshops to explore different modalities of robot feedback (e.g., motion, light, sound) as forms of tangible "negotiation" between human intent and machine interpretation. The ultimate goal is to support the design of collaborative experience for Child-Robot interaction that cultivate rather than constrain imagination.
+We design shape-aware interation as tangible feedback for collaborative storytelling between children and swarm robots. We further probe its design opportunities through a serie of multi-stakeholder workshops to explore different modalities of robot feedback (e.g., motion, light, sound) as forms of tangible "negotiation" between human intent and machine interpretation. The ultimate goal is to support the design of collaborative experience for Child-Robot interaction that cultivate rather than constrain imagination.
 
 ## Publication
 
