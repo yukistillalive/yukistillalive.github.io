@@ -196,7 +196,7 @@ My name Yue 越 pronounces as 'Yoo-eh', which I interpret as 'radical'. Besides,
   // News
   news: [
     { id: 9, date: "Jul 2026", text: "Attending summer school 'AI Dreaming Together' in Shenzhen, by PoliTo and SUSTech." },
-    { id: 8, date: "Jun 2026", text: "I'm honored to receive the", link: "https://sigchi.org/resources/gary-marsden-travel-awards/recipients/", linkLabel: "Gary Marsden Travel Award", suffix: "by SIGCHI for IMX'26 🥳, and will serve as a student volunteer during the conference!" },
+    { id: 8, date: "Jun 2026", text: "I had the opportunity to present and volenteer at IMX'26 🥳 with the support by SIGCHI", link: "https://sigchi.org/resources/gary-marsden-travel-awards/recipients/", linkLabel: "Gary Marsden Travel Award"},
     { id: 7, date: "May 2026", text: "Project 'Asking PianoAutomata' has been selected for NAVET Student Festival 2026 with Tekniska!" },
     {
       id: 6,
