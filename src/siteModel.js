@@ -195,16 +195,17 @@ My name Yue 越 pronounces as 'Yoo-eh', which I interpret as 'radical'. Besides,
 
   // News
   news: [
+    { id: 10, date: "Sep 2026", text: "Recently I started a TA position in DM1595/DH2642 Interaction Programming and the Dynamic Web at KTH!"},
     { id: 9, date: "Jul 2026", text: "Attending summer school 'AI Dreaming Together' in Shenzhen, by PoliTo and SUSTech." },
     { id: 8, date: "Jun 2026", text: "I had the opportunity to present and volunteer at IMX'26 🥳 with the support by SIGCHI", link: "https://sigchi.org/resources/gary-marsden-travel-awards/recipients/", linkLabel: "Gary Marsden Travel Award"},
     { id: 7, date: "May 2026", text: "Project 'Asking PianoAutomata' has been selected for NAVET Student Festival 2026 with Tekniska!" },
-    {
-      id: 6,
-      date: "Apr 2026",
-      text: "Seeking creative practitioners for an",
-      link: "https://bucolic-churros-8cbc0b.netlify.app/",
-      linkLabel: "online study.",
-    },
+    // {
+    //   id: 6,
+    //   date: "Apr 2026",
+    //   text: "Seeking creative practitioners for an",
+    //   link: "https://bucolic-churros-8cbc0b.netlify.app/",
+    //   linkLabel: "online study.",
+    // },
     { id: 5, date: "Apr 2026", text: "One paper accepted at ACM IMX'26! Will be presenting it in Althone, Ireland." },
     { id: 4, date: "Mar 2026", text: "Got one special recognition for outstanding reviews on CHI'26 posters." },
     { id: 3, date: "Aug 2025", text: "Started my master's study at KTH Royal Institute of Technology." },
