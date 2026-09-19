@@ -4,7 +4,7 @@ export const model = {
   role: "Master Student · Interactive Media Technology",
   affiliation: "KTH Royal Institute of Technology",
   email: "yukizhuyue [at] outlook [dot] com",
-  photo: "/media/profile/profile.jpeg",
+  photo: "/media/profile/profile.jpg",
   bio: `Thanks for stopping by! I am a master's student studying Interactive Media Technology (MSc) at KTH Royal Institute of Technology. Through a sociotechnical lens, I design and develop for meaningful interactive experiences, conduct empirical study to perceive and reflect, and speculate for alternative human-technology relationship. My current interest includes Critical Computing, Creativity Support, Data Feminism, and more broadly, Human-Computer Interaction. 
 
 Previously during my undergraduate studies in Industrial Design (BEng) at China Academy of Art, I have gained valuable research experience at POEL Lab, Politecnico di Torino and MiLab, Tsinghua University. Before those, I went for exchange study at Willem de Kooning Academie with a focus on Transformation Design (BA). View my full [CV](https://drive.google.com/file/d/1qfp0cRNJ__H4Rj9sVOis4C9qNOafOxUL/view?usp=sharing) here.
