@@ -11,7 +11,7 @@ Previously during my undergraduate studies in Industrial Design (BEng) at China 
 
 I'm grateful for every institution that shaped my education. Starting at an art academy before KTH gave me the freedom to think beyond conventional technical discourses and to practice mindfully at the intersection of technology and society, which largely defines where my positionality of research and design comes from.
 
-My name Yue 越 pronounces as 'Yoo-eh', which I interpret as 'radical'. Besides, I also enjoy my friends calling me 'Yuki' as an alternative. To confront occasionally increased anxiety, I started to write down some [thoughts and reflection](/blog).`,
+My name Yue 越 pronounces as 'Yoo-eh', which means 'quickly getting over'. Besides, I also enjoy my friends calling me 'Yuki' as an alternative. To confront occasionally increased anxiety, I started to write down some [thoughts and reflection](/blog).`,
   links: {
     // github:  "https://github.com/yukistillalive",
     scholar: "https://scholar.google.com/citations?user=QGG3uUgAAAAJ&hl=en",
@@ -47,6 +47,17 @@ My name Yue 越 pronounces as 'Yoo-eh', which I interpret as 'radical'. Besides,
 
   // Projects
   projects: [
+    {
+      id: 8,
+      slug: "asking-pianoautomata",
+      title: "Asking PianoAutomata",
+      description: "Whatever you seek, ask PianoAutomata.",
+      // link: "https://tarot-app-dev-yuki.web.app/",
+      thumb: "/media/projects/08_piano2.0/cover.png",
+      label: "Whatever you seek, ask PianoAutomata.",
+      // link: "https://tarot-app-dev-yuki.web.app/",
+      tags: ["Physical Interaction", "Reflexive AI"],
+    },
     {
       id: 7,
       slug: "seeking-answer-from-tarot",

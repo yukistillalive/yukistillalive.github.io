@@ -1,6 +1,7 @@
 import Markdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import remarkMath from "remark-math";
+import rehypeRaw from "rehype-raw";
 import rehypeKatex from "rehype-katex";
 import "katex/dist/katex.min.css";
 
@@ -21,7 +22,7 @@ export function BlogPostView({ post, content, loading, error, onBack }) {
         {loading && <p className="detail-status">Loading…</p>}
         {error   && <p className="detail-status">Content not found.</p>}
         {content && (
-          <Markdown remarkPlugins={[remarkGfm, remarkMath]} rehypePlugins={[rehypeKatex]}>
+          <Markdown remarkPlugins={[remarkGfm, remarkMath]} rehypePlugins={[rehypeRaw, rehypeKatex]}>
             {content}
           </Markdown>
         )}

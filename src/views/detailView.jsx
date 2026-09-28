@@ -1,4 +1,6 @@
 import Markdown from "react-markdown";
+import remarkGfm from "remark-gfm";
+import rehypeRaw from "rehype-raw";
 
 export function DetailView({ project, content, loading, error, onBack }) {
   return (
@@ -37,7 +39,11 @@ export function DetailView({ project, content, loading, error, onBack }) {
             />
           </div>
         )}
-        {content && <Markdown>{content}</Markdown>}
+        {content && (
+          <Markdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]}>
+            {content}
+          </Markdown>
+        )}
       </div>
     </div>
   );
