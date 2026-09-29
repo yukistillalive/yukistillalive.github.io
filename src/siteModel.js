@@ -5,9 +5,9 @@ export const model = {
   affiliation: "KTH Royal Institute of Technology",
   email: "yukizhuyue [at] outlook [dot] com",
   photo: "/media/profile/profile.jpg",
-  bio: `Thanks for stopping by! I am a master's student studying Interactive Media Technology (MSc) at KTH Royal Institute of Technology. Through a sociotechnical lens, I design and develop for meaningful interactive experiences, conduct empirical study to perceive and reflect, and speculate for alternative human-technology relationship. My current interest includes Critical Computing, Creativity Support, Data Feminism, and more broadly, Human-Computer Interaction. 
+  bio: `Thanks for stopping by! I am a master's student studying Interactive Media Technology (MSc) at KTH Royal Institute of Technology, with a focus on critical and creative computing. Through a sociotechnical lens, I speculate, design and develop for alternative human-technology relationships. 
 
-Previously during my undergraduate studies in Industrial Design (BEng) at China Academy of Art, I have gained valuable research experience at POEL Lab, Politecnico di Torino and MiLab, Tsinghua University. Before those, I went for exchange study at Willem de Kooning Academie with a focus on Transformation Design (BA). View my full [CV](https://drive.google.com/file/d/1qfp0cRNJ__H4Rj9sVOis4C9qNOafOxUL/view?usp=sharing) here.
+Previously during my undergraduate study in Industrial Design (BEng) at China Academy of Art, I have gained valuable research experience at POEL Lab, Politecnico di Torino and MiLab, Tsinghua University. Before those, I went for exchange study at Willem de Kooning Academie with a focus on Transformation Design (BA). View my full [CV](https://drive.google.com/file/d/1qfp0cRNJ__H4Rj9sVOis4C9qNOafOxUL/view?usp=sharing) here.
 
 I'm grateful for every institution that shaped my education. Starting at an art academy before KTH gave me the freedom to think beyond conventional technical discourses and to practice mindfully at the intersection of technology and society, which largely defines where my positionality of research and design comes from.
 
