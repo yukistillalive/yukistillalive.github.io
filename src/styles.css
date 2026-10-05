@@ -49,7 +49,7 @@
 
   /* layout */
   --sidebar:   250px;
-  --photo:     clamp(150px, 20vw, 280px);
+  --photo:     clamp(200px, 28vw, 380px);
   --col-date:  80px;
   --col-year:  46px;
 }

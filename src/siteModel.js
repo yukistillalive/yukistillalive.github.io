@@ -206,6 +206,7 @@ My name Yue 越 pronounces as 'Yoo-eh', which means 'quickly getting over'. Besi
 
   // News
   news: [
+    { id: 11, date: "Oct 2026", text: "My artwork will be in exhibition with Tekinska Museet on Oct 21 as part of", link: "https://www.kth.se/navet/for-students/navet-student-festival/dream-ex-machina-1.1486612/", linkLabel: "Dream ex Machina"},
     { id: 10, date: "Sep 2026", text: "Recently I started a TA position in DM1595/DH2642 Interaction Programming and the Dynamic Web at KTH!"},
     { id: 9, date: "Jul 2026", text: "Attending summer school 'AI Dreaming Together' in Shenzhen, by PoliTo and SUSTech." },
     { id: 8, date: "Jun 2026", text: "I had the opportunity to present and volunteer at IMX'26 🥳 with the support by SIGCHI", link: "https://sigchi.org/resources/gary-marsden-travel-awards/recipients/", linkLabel: "Gary Marsden Travel Award"},
