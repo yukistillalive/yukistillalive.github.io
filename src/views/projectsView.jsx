@@ -10,8 +10,10 @@ export function ProjectsView({ projects, news }) {
       </div>
       <div className="project-grid">
         <div className="project-item news-cell" id="news">
+          <p className="section-label label-mobile">News</p>
           <NewsView news={news} hideLabel />
         </div>
+        <p className="section-label label-mobile">Projects</p>
         {projects.map((proj) => (
           <div className="project-item" key={proj.id}>
             <Link to={`/projects/${proj.slug}`}>
