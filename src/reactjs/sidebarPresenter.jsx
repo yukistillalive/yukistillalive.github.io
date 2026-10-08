@@ -3,7 +3,7 @@ import { observer } from "mobx-react-lite";
 import { useLocation } from "react-router-dom";
 import { SidebarView } from "../views/sidebarView.jsx";
 
-const SECTIONS = ["about", "news", "projects", "publications"];
+const SECTIONS = ["about", "news", "projects"];
 
 const Sidebar = observer(function Sidebar({ model }) {
   const [active, setActive] = useState("about");

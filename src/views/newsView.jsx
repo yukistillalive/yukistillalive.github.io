@@ -1,7 +1,7 @@
-export function NewsView({ news }) {
+export function NewsView({ news, hideLabel }) {
   return (
     <div>
-      <p className="section-label">News</p>
+      {!hideLabel && <p className="section-label">News</p>}
       <div className="news-list news-scroll">
         {news.map((item) => (
           <div className="news-row" key={item.id}>

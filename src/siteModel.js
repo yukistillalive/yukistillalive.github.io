@@ -9,9 +9,10 @@ export const model = {
 
 Previously during my undergraduate study in Industrial Design (BEng) at China Academy of Art, I have gained valuable research experience at POEL Lab, Politecnico di Torino and MiLab, Tsinghua University. Before those, I went for exchange study at Willem de Kooning Academie with a focus on Transformation Design (BA). View my full [CV](https://drive.google.com/file/d/1qfp0cRNJ__H4Rj9sVOis4C9qNOafOxUL/view?usp=sharing) here.
 
-I'm grateful for every institution that shaped my education. Starting at an art academy before KTH gave me the freedom to think beyond conventional technical discourses and to practice mindfully at the intersection of technology and society, which largely defines where my positionality of research and design comes from.
+I'm grateful for every institution that shaped my education. Starting at an art academy before KTH gave me the freedom to think beyond conventional technical discourses and to practice mindfully at the intersection of technology and society, which largely defines where my positionality of design and research comes from.
 
 My name Yue 越 pronounces as 'Yoo-eh', which means 'quickly getting over'. Besides, I also enjoy my friends calling me 'Yuki' as an alternative. To confront occasionally increased anxiety, I started to write down some [thoughts and reflection](/blog).`,
+  researchBio: `My current research exploration sits at the intersection of human-computer interaction and critical media studies. Through a sociotechnical lens, I examine how generative AI is imagined, designed and lived with, and I build speculative and creative systems that explore alternative human-technology relationships.`,
   links: {
     // github:  "https://github.com/yukistillalive",
     scholar: "https://scholar.google.com/citations?user=QGG3uUgAAAAJ&hl=en",

@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 const NAV = [
   { id: "about",        label: "About",        kind: "section" },
   { id: "news",         label: "News",         kind: "section" },
-  { id: "publications", label: "Publications",  kind: "section" },
   { id: "projects",     label: "Projects",     kind: "section" },
+  { id: "research",     label: "Research",     kind: "route",    to: "/research" },
   // { id: "blog",         label: "Blog",         kind: "route",    to: "/blog" },
 
 ];
@@ -51,7 +51,6 @@ export function SidebarView({ name, active, email, links, isHome, pathname }) {
         })}
       </nav>
       <div className="sidebar-links">
-        {links?.scholar  && <a href={links.scholar}  target="_blank" rel="noreferrer">Google Scholar</a>}
         {/* {links?.github   && <a href={links.github}   target="_blank" rel="noreferrer">GitHub</a>} */}
         {links?.linkedin && <a href={links.linkedin} target="_blank" rel="noreferrer">LinkedIn</a>}
         {email           && <a href={`mailto:${email}`}>{email}</a>}

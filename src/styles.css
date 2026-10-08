@@ -288,6 +288,15 @@ a { color: inherit; text-decoration: none; }
 .news-inline-link:hover { color: var(--accent); }
 
 
+/* ── Research page ───────────────────────────────────────
+   width : share of the content area used by bio + publications */
+.research-page { width: 66.667%; }
+.research-bio { font-size: 0.88rem; color: var(--text); line-height: 1.75; margin-bottom: 2.5rem; }
+.research-scholar { margin-top: 2rem; font-size: 0.85rem; color: var(--subtle); }
+@media (max-width: 860px) {
+  .research-page { width: 100%; }
+}
+
 /* ── Publications ────────────────────────────────────────── */
 .pub-list { display: flex; flex-direction: column; gap: 1.4rem; }
 
@@ -340,7 +349,18 @@ a { color: inherit; text-decoration: none; }
   gap: 1.5rem;
 }
 
+/* LABEL ROW — same columns/gap as .project-grid so News and Projects titles align */
+.project-labels {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
 .project-item a { display: block; }
+
+/* NEWS CELL — first cell of the project grid */
+.news-cell { scroll-margin-top: 2rem; }
+.news-cell .news-scroll { max-height: 24rem; }
 
 /* GREY FILTER ON PROJECT THUMBNAILS
    grayscale(100%) = fully desaturated by default
@@ -608,5 +628,6 @@ a { color: inherit; text-decoration: none; }
   .sidebar-nav  { flex-direction: row; gap: 1rem; }
   .sidebar-links { margin-top: 0; }
   .about-grid   { grid-template-columns: 1fr; max-width: 320px; }
-  .project-grid { grid-template-columns: repeat(2, 1fr); }
+  .project-grid,
+  .project-labels { grid-template-columns: repeat(2, 1fr); }
 }

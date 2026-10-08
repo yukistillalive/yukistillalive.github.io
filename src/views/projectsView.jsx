@@ -1,10 +1,17 @@
 import { Link } from "react-router-dom";
+import { NewsView } from "./newsView.jsx";
 
-export function ProjectsView({ projects }) {
+export function ProjectsView({ projects, news }) {
   return (
     <div>
-      <p className="section-label">Projects</p>
+      <div className="project-labels">
+        <p className="section-label">News</p>
+        <p className="section-label">Projects</p>
+      </div>
       <div className="project-grid">
+        <div className="project-item news-cell" id="news">
+          <NewsView news={news} hideLabel />
+        </div>
         {projects.map((proj) => (
           <div className="project-item" key={proj.id}>
             <Link to={`/projects/${proj.slug}`}>
