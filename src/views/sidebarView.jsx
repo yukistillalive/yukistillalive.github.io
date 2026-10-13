@@ -51,7 +51,7 @@ export function SidebarView({ name, active, email, links, isHome, pathname }) {
         })}
       </nav>
       <div className="sidebar-links">
-        {/* {links?.github   && <a href={links.github}   target="_blank" rel="noreferrer">GitHub</a>} */}
+        {links?.github   && <a href={links.github}   target="_blank" rel="noreferrer">GitHub</a>}
         {links?.linkedin && <a href={links.linkedin} target="_blank" rel="noreferrer">LinkedIn</a>}
         {email           && <a href={`mailto:${email}`}>{email}</a>}
       </div>

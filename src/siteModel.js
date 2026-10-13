@@ -7,16 +7,14 @@ export const model = {
   photo: "/media/profile/profile.jpg",
   bio: `Thanks for stopping by! I am a master's student studying Interactive Media Technology (MSc) at KTH Royal Institute of Technology, with a focus on critical and creative computing. Through a sociotechnical lens, I speculate, design and develop for alternative human-technology relationships. 
 
-Previously during my undergraduate study in Industrial Design (BEng) at China Academy of Art, I have gained valuable research experience at POEL Lab, Politecnico di Torino and MiLab, Tsinghua University. Before those, I went for exchange study at Willem de Kooning Academie with a focus on Transformation Design (BA). View my full [CV](https://drive.google.com/file/d/1qfp0cRNJ__H4Rj9sVOis4C9qNOafOxUL/view?usp=sharing) here.
-
-I'm grateful for every institution that shaped my education. Starting at an art academy before KTH gave me the freedom to think beyond conventional technical discourses and to practice mindfully at the intersection of technology and society, which largely defines where my positionality of design and research comes from.
+Previously during my undergraduate study in Industrial Design (BEng) at China Academy of Art, I have gained valuable research experience at POEL Lab, Politecnico di Torino and MiLab, Tsinghua University. Before those, I went for exchange study at Willem de Kooning Academie with a focus on Transformation Design (BA). Know [more](https://www.linkedin.com/in/yue-zhu-35b170291/) about me or view my full [cv](https://drive.google.com/file/d/1qfp0cRNJ__H4Rj9sVOis4C9qNOafOxUL/view?usp=sharing).
 
 My name Yue 越 pronounces as 'Yoo-eh', which means 'quickly getting over'. Besides, I also enjoy my friends calling me 'Yuki' as an alternative. To confront occasionally increased anxiety, I started to write down some [thoughts and reflection](/blog).`,
-  researchBio: `My current research exploration sits at the intersection of human-computer interaction and critical media studies. Through a sociotechnical lens, I examine how generative AI is imagined, designed and lived with, and I build speculative and creative systems that explore alternative human-technology relationships.`,
+  researchBio: `My current research exploration sits at the intersection of human-computer interaction and critical media studies. Through a sociotechnical lens, I examine how generative AI is imagined, designed and lived with, and I build speculative and creative systems that explore alternative human-technology relationships. Starting at an art academy before KTH gave me the freedom to think beyond conventional technical discourses and to practice mindfully at the intersection of technology and society, which largely defines where my positionality of design and research comes from.`,
   links: {
-    // github:  "https://github.com/yukistillalive",
+    github:  "https://github.com/yukistillalive",
     scholar: "https://scholar.google.com/citations?user=QGG3uUgAAAAJ&hl=en",
-    linkedin: "https://www.linkedin.com/in/yue-z-35b170291/",
+    // linkedin: "https://www.linkedin.com/in/yue-zhu-35b170291/",
     // cv:      "../content/cv/cv_apr_26.pdf",
   },
   contact: {
@@ -71,16 +69,36 @@ My name Yue 越 pronounces as 'Yoo-eh', which means 'quickly getting over'. Besi
       tags: ["Web App", "Interaction Design"],
     },
     {
-      id: 6,
-      slug: "feminist-critique-to-cst",
-      title: "Creative Infrastructure as Ideology",
-      description: "A work-in-progress essay draft",
+      id: 4,
+      slug: "unveiling-ai-hype",
+      title: "Designing Responsible AI Communication",
+      description: "A critique to unveil hype in GenAI advertisement media by examining the narrative structures that contribute to constructing our collective imagination and design for alternatives.",
       link: null,
-      thumb: "/media/projects/06_feminist/cover.png",
-      // pdf: "/media/projects/06_feminist/feminist critique to cst.pdf",
-      label: "A Feminist Critique of Designing Creativity Support Tools In The Age of Generative AI",
-      tags: ["Gender and Technology", "Creativity Support", "Generative AI"],
+      thumb: "/media/projects/04_hype/cover.png",
+      label: "A critique to unveil hype in GenAI advertisement media by examining the narrative structures that contribute to constructing our collective imagination.",
+      tags: ["Critical Computing", "AI & Social Justice", "AI Trust"],
     },
+    {
+      id: 9,
+      slug: "sketchspace",
+      title: "Doodling Collage Together",
+      description: "A web app for making collages together on a shared canvas.",
+      thumb: "/media/projects/09_sketchspace/cover.png",
+      label: "A web app for making collages together with friends on a shared canvas.",
+      tags: ["Full-stack Dev", "Creativity Support"],
+    },
+    // {
+    //   id: 6,
+    //   slug: "feminist-critique-to-cst",
+    //   title: "Creative Infrastructure as Ideology",
+    //   description: "A work-in-progress essay draft",
+    //   link: null,
+    //   thumb: "/media/projects/06_feminist/cover.png",
+    //   // pdf: "/media/projects/06_feminist/feminist critique to cst.pdf",
+    //   label: "A Feminist Critique of Designing Creativity Support Tools In The Age of Generative AI",
+    //   tags: ["Gender and Technology", "Creativity Support", "Generative AI"],
+    // },
+    
     {
       id: 5,
       slug: "birthday-ritual-workbook",
@@ -91,16 +109,6 @@ My name Yue 越 pronounces as 'Yoo-eh', which means 'quickly getting over'. Besi
       pdf: "/media/projects/05_ritual/Birthday%20Ritual%20Workbook_revision.pdf",
       label: "Revive birthday celebration from afar through a playful ritual.",
       tags: ["Interaction Design", "Design Reflection"],
-    },
-    {
-      id: 4,
-      slug: "unveiling-ai-hype",
-      title: "Designing Responsible AI Communication",
-      description: "A critique to unveil hype in GenAI advertisement media by examining the narrative structures that contribute to constructing our collective imagination and design for alternatives.",
-      link: null,
-      thumb: "/media/projects/04_hype/cover.png",
-      label: "A critique to unveil hype in GenAI advertisement media by examining the narrative structures that contribute to constructing our collective imagination.",
-      tags: ["Critical Computing", "AI & Social Justice", "AI Trust"],
     },
     {
       id: 3,

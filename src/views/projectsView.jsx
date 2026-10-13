@@ -34,7 +34,7 @@ export function ProjectsView({ projects, news }) {
           </div>
         ))}
       </div>
-      <p className="home-tagline">✨ I look for meaning in meaningless interactions. ✨</p>
+      <p className="home-tagline">I am recently resorting different ways to seek an answer 🧙</p>
     </div>
   );
 }
