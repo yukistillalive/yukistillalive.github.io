@@ -83,6 +83,7 @@ My name Yue 越 pronounces as 'Yoo-eh', which means 'quickly getting over'. Besi
       slug: "sketchspace",
       title: "Doodling Collage Together",
       description: "A web app for making collages together on a shared canvas.",
+      link: "https://chaimi760970774.github.io/Sketchspace/",
       thumb: "/media/projects/09_sketchspace/cover.png",
       label: "A web app for making collages together with friends on a shared canvas.",
       tags: ["Full-stack Dev", "Creativity Support"],
