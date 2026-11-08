@@ -590,6 +590,8 @@ a { color: inherit; text-decoration: none; }
 .detail-content hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
 .detail-content img,
 .detail-content video { max-width: 100%; display: block; margin: 1rem 0; }
+.detail-content .media-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.75rem; margin: 1rem 0; }
+.detail-content .media-grid img { margin: 0; width: 100%; height: 100%; object-fit: cover; }
 
 .detail-pdf-wrap {
   margin-bottom: 1.4rem;
